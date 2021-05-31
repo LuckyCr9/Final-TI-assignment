@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es5",                                
+    "module": "commonjs",                           
+    "strict": true,                               
+    "esModuleInterop": true,                        
+    "skipLibCheck": true,                          
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "lib": ["ES2018","DOM"],
+    "types": ["jest", "node", "supertest", "jsonwebtoken","cookie-parser"]  
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
